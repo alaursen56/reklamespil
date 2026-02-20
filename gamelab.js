@@ -43,7 +43,7 @@ function opdater() {
 function nyFugl() {
   enemybird = createSprite(
     World.width + 50,
-    randomNumber(50, World.height - 300)
+    randomNumber(50, World.height - 100)
   );
   enemybird.setAnimation("enemybird");
   enemybird.scale = 0.1;
@@ -129,7 +129,8 @@ function draw() {
       textSize(14);
       text("Meld dig som pilot i forsvaret på forsvaret.dk/pilot", 200, 200);
     } else {
-      text("Tiden løb ud!\nDine point: " + score, 200, 170);
+      textSize(20);
+      text("Tiden løb ud!\nDine point: " + score, 200, 150);
       textSize(14);
       text("Meld dig som pilot i forsvaret på forsvaret.dk/pilot", 200, 200);
     }
