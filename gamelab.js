@@ -58,7 +58,7 @@ function draw() {
     text("PILOTTESTEN", 113, 130);
 
     textSize(17);
-    text("For at starte, skal du trykke på [MELLEMRUM].\n" +"Du styrer også flyet med mellemrum.\n" + "Du har 20 sekunder, held og lykke!",25, 170);
+    text("For at starte, skal du trykke på [MELLEMRUM].\n" +"Du styrer også flyet med mellemrum,\nhvor du skal forsøge at undvige fuglene.\n" + "Du har 20 sekunder, held og lykke!",25, 170);
 
     fill("grey");
     text("forsvaret.dk", 295, 385);
